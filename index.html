@@ -188,28 +188,7 @@
 
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="js/javascript.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function () {
-    var $window = $(window),
-        $mainMenuBar = $('.mainMenuBar'),
-        $mainMenuBarAnchor = $('#mainMenuBarAnchor');
-
-    $window.scroll(function () {
-        var window_top = $window.scrollTop();
-        var div_top = $mainMenuBarAnchor.offset().top;
-        if (window_top > div_top) {
-            //div sticky
-            $mainMenuBar.addClass('stick');
-            $mainMenuBarAnchor.height($mainMenuBar.height());
-        } else {
-            //unsticky div
-            $mainMenuBar.removeClass('stick');
-            $mainMenuBarAnchor.height(0);
-        }
-    });
-    });
-
-    </script>
+    
 
 </body>
 </html>
