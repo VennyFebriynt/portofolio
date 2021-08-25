@@ -1,0 +1,173 @@
+
+@media all and (max-width: 1000px) {
+
+    ul li a {
+        margin: 0 25px;
+    }
+
+    .folio {
+        margin: 9px 30px 0px 30px;
+    }
+
+    .profile p {
+        margin: 0 20px;
+    }
+
+    .skill {
+        padding: 50px 40px;
+    }
+
+    .gambar {
+        width: 80%;
+    }
+
+    #judul {
+        font-size: 15px;
+        height: 25px;
+    }
+
+    #bahasa {
+    font-size: 13px;
+    margin-top: 40px;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding: 0 100px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .heading {
+        height: 50vh;
+    }
+
+    h3.nama-kiri {
+        display: none;
+    }
+
+    h3.nama-kanan {
+        display: none;
+    }
+
+    .container {
+        padding: 10px 20px;
+        margin-top: 0px;
+    }
+
+    .heading p {
+        padding-top: 170px;
+        font-size: 30px;
+    }
+
+    .heading p.kecil {
+        font-size: 15px;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+    
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 33px;
+        width: 100%;
+        height: 50%;
+        z-index: 1;
+        transform: translateX(-100%);
+        transition: all 1s;
+        opacity: 0;
+        text-align: left;
+
+    }
+    .folio {
+        display: none;
+    }
+
+    .mainMenuBar ul li {
+        margin-left: 120px;
+        background-color: #fff;
+        height: 50px;
+        margin-top: 0px;
+        width: 150px;
+        padding: 10px 20px;
+        text-align: left;
+    }
+    
+    nav ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    h2 {
+        background-color: #fff;
+        height: 55px;
+        margin-top: 0;
+        padding: 20px 0;
+    }
+
+    .stick {
+        display: none;
+    }
+    .about {
+        width: 4cm;
+    }
+
+    .profile {
+        width: 100%;
+        height: 650px;
+        padding-left: 30px;
+    }
+
+    .profile a {
+        width: 60%;
+    }
+
+    .skills {
+        width: 100%;
+    }
+
+    .project {
+        padding: 0;
+    }
+
+    .gambar {
+        width: 100%;
+    }
+
+    #hilang1 {
+        margin-top: 35px;
+    }
+
+    #hilang2 {
+        margin-top: 35px;
+    }
+
+    #hilang3 {
+        margin-top: 35px;
+    }
+
+    #hilang4 {
+        margin-top: 35px;
+    }
+
+    .contact-container {
+        padding: 0 30px;
+    }
+
+    .contact-container p.nomer {
+        padding: 0 25px;
+    }
+
+    .contact-container input.send {
+        width: 40%;
+    }
+
+    .footer ul {
+        padding-left: 0;
+    }
+}
