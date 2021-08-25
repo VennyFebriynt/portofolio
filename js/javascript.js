@@ -6,7 +6,7 @@ menuToggle.addEventListener('click', function() {
     nav.classList.toggle('slide');    
 });
 
-$(function() {
+function() {
     var $window = $(window),
         $mainMenuBar = $('.mainMenuBar'),
         $mainMenuBarAnchor = $('#mainMenuBarAnchor');
@@ -23,7 +23,7 @@ $(function() {
             $mainMenuBar.removeClass('stick');
             $mainMenuBarAnchor.height(0);
         }
-    });
+    };
 // Cache selectors
 var lastId,
 topMenu = $("#top-menu"),
