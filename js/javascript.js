@@ -6,6 +6,26 @@ menuToggle.addEventListener('click', function() {
     nav.classList.toggle('slide');    
 });
 
+
+    var $window = $(window),
+        $mainMenuBar = $('.mainMenuBar'),
+        $mainMenuBarAnchor = $('#mainMenuBarAnchor');
+
+    $window.scroll(function () {
+        var window_top = $window.scrollTop();
+        var div_top = $mainMenuBarAnchor.offset().top;
+        if (window_top > div_top) {
+            //div sticky
+            $mainMenuBar.addClass('stick');
+            $mainMenuBarAnchor.height($mainMenuBar.height());
+        } else {
+            //unsticky div
+            $mainMenuBar.removeClass('stick');
+            $mainMenuBarAnchor.height(0);
+        }
+    });
+
+    
 // Cache selectors
 var lastId,
     topMenu = $("#top-menu"),
